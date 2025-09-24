@@ -1,8 +1,6 @@
 # Replace the "ANSWER HERE" with your answer
-
 def remove_elements(list_to_remove_elements):
     lista = list_to_remove_elements.copy()
-
     if len(lista) > 5:
         del lista[5]
     if len(lista) > 4:
@@ -10,7 +8,6 @@ def remove_elements(list_to_remove_elements):
     if len(lista) > 0:
         del lista[0]
     return lista
-
 
 def add_elements(list_to_add_elements):
     list_to_add_elements.append("Yellow")
