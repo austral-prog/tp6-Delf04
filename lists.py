@@ -1,3 +1,5 @@
+# Replace the "ANSWER HERE" with your answer
+
 def remove_elements(list_to_remove_elements):
     lista = list_to_remove_elements.copy()
 
@@ -26,4 +28,3 @@ def list_of_lists(list_of_lists_to_modify):
     list_of_lists_to_modify[1] = list_of_lists_to_modify[1][1:4]
     list_of_lists_to_modify[2] = list_of_lists_to_modify[2][-2:]
     return list_of_lists_to_modify
-
